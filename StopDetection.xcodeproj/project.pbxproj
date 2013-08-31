@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13DE120117D23500004ED364 /* GPS.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DE120017D23500004ED364 /* GPS.m */; };
+		13DE120317D2366D004ED364 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13DE120217D2366D004ED364 /* CoreLocation.framework */; };
 		13FADA6617D232F000ABF2B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FADA6517D232F000ABF2B5 /* UIKit.framework */; };
 		13FADA6817D232F000ABF2B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FADA6717D232F000ABF2B5 /* Foundation.framework */; };
 		13FADA6A17D232F000ABF2B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FADA6917D232F000ABF2B5 /* CoreGraphics.framework */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13DE11FF17D23500004ED364 /* GPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPS.h; sourceTree = "<group>"; };
+		13DE120017D23500004ED364 /* GPS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPS.m; sourceTree = "<group>"; };
+		13DE120217D2366D004ED364 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		13FADA6217D232F000ABF2B5 /* StopDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FADA6517D232F000ABF2B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13FADA6717D232F000ABF2B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13DE120317D2366D004ED364 /* CoreLocation.framework in Frameworks */,
 				13FADA6617D232F000ABF2B5 /* UIKit.framework in Frameworks */,
 				13FADA6817D232F000ABF2B5 /* Foundation.framework in Frameworks */,
 				13FADA6A17D232F000ABF2B5 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +64,7 @@
 		13FADA5917D232F000ABF2B5 = {
 			isa = PBXGroup;
 			children = (
+				13DE120217D2366D004ED364 /* CoreLocation.framework */,
 				13FADA6B17D232F000ABF2B5 /* StopDetection */,
 				13FADA6417D232F000ABF2B5 /* Frameworks */,
 				13FADA6317D232F000ABF2B5 /* Products */,
@@ -92,6 +99,8 @@
 				13FADA8017D232F000ABF2B5 /* ViewController_iPhone.xib */,
 				13FADA8317D232F000ABF2B5 /* ViewController_iPad.xib */,
 				13FADA6C17D232F000ABF2B5 /* Supporting Files */,
+				13DE11FF17D23500004ED364 /* GPS.h */,
+				13DE120017D23500004ED364 /* GPS.m */,
 			);
 			path = StopDetection;
 			sourceTree = "<group>";
@@ -180,6 +189,7 @@
 				13FADA7217D232F000ABF2B5 /* main.m in Sources */,
 				13FADA7617D232F000ABF2B5 /* AppDelegate.m in Sources */,
 				13FADA7F17D232F000ABF2B5 /* ViewController.m in Sources */,
+				13DE120117D23500004ED364 /* GPS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +322,7 @@
 				13FADA8A17D232F000ABF2B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
